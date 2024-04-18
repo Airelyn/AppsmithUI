@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 910,
+          "bottomRow": 840,
           "containerStyle": "none",
           "snapRows": 75,
           "parentRowSpace": 1,
@@ -33,6 +33,18 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "OwnerHome_getScheOfLocation",
+              "name": "getScheOfLocation",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "JSONForm1.sourceData.id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

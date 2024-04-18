@@ -179,7 +179,7 @@
                 "iconAlign": "left",
                 "position": 6,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 2,
                 "fieldType": "Number Input"
             },
             "zip": {
@@ -236,7 +236,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "dataType": "string",
                 "accessor": "lastName",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Last Name",
                 "originalIdentifier": "lastName",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
@@ -333,7 +333,7 @@
                 "iconAlign": "left",
                 "position": 4,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 2,
                 "fieldType": "Number Input"
             },
             "state": {
@@ -386,7 +386,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 91,
+    "bottomRow": 84,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Get Schedule",
