@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "ManagerHome",
-    "slug": "managerhome",
+    "name": "View Employee Tasks",
+    "slug": "view-employee-tasks",
     "layouts": [
       {
         "viewMode": false,
@@ -13,22 +13,33 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 400,
           "containerStyle": "none",
-          "snapRows": 75,
+          "snapRows": 61,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 770,
+          "minHeight": 630,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "View Employee Tasks_Get_Tasks",
+              "name": "Get_Tasks",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "ManagerHome",
+        "id": "View Employee Tasks",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661d1ae337b5e72878311a3b_661d310f5681401c9f54b444"
+  "gitSyncId": "6621b2bcd5a38e03f1e6e400_6621bd80d5a38e03f1e6e427"
 }

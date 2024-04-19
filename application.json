@@ -15,6 +15,22 @@
     {
       "id": "ManagerHome",
       "isDefault": false
+    },
+    {
+      "id": "View Other Managers",
+      "isDefault": false
+    },
+    {
+      "id": "Delete Employee",
+      "isDefault": false
+    },
+    {
+      "id": "View Employee Tasks",
+      "isDefault": false
+    },
+    {
+      "id": "Edit Employee Roles",
+      "isDefault": false
     }
   ],
   "viewMode": false,
