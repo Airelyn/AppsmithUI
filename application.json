@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Page3",
-      "isDefault": false
-    },
-    {
       "id": "Request_Time_Off",
       "isDefault": true
     }
