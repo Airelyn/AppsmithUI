@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 4,
-    "bottomRow": 8,
+    "bottomRow": 9,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,10 +28,10 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello Employee",
+    "text": "Hello Employee, \nPlease Enter Your Time Off Request",
     "key": "98o0rcv35c",
     "isDeprecated": false,
-    "rightColumn": 29,
+    "rightColumn": 32,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "avww6mm952",
@@ -49,9 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
+    "originalTopRow": 4,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 9,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

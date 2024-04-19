@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 38,
-    "bottomRow": 57,
+    "bottomRow": 54,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello please select your correct user type in order to be directed to the correct page for further scheudling work",
+    "text": "Hello please select your correct user type in order to be directed to the correct page for further scheduling work",
     "key": "xdbaikycij",
     "isDeprecated": false,
     "rightColumn": 46,
