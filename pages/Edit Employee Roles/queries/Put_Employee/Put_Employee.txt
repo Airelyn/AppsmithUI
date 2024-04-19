@@ -1,0 +1,3 @@
+{
+	"role": {{JSONForm1.formData.role}}
+}
