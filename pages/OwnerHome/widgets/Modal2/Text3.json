@@ -17,6 +17,7 @@
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "dynamicTriggerPathList": [],
     "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
@@ -25,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Modal Title",
+    "text": "All Shifts",
     "key": "pvkbg9iqh9",
     "isDeprecated": false,
     "rightColumn": 41,
